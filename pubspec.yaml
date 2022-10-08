@@ -46,6 +46,8 @@ dependencies:
   internet_connection_checker: ^1.0.0+1
   analyzer: ^5.1.0
   json_serializable: ^6.5.0
+  http: ^0.13.3 #This is used for the API call
+  provider: ^6.0.0
 
 
 dev_dependencies:
