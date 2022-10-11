@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../../data/remote/ApiResponse.dart';
-import '../../data/remote/VesselRepo.dart';
-import '../../model/home/VesseleListModel.dart';
+import '../../data/remote/api_response.dart';
+import '../../data/remote/vessel_repo.dart';
+import '../../model/home/vessele_list_model.dart';
 
 class VesselsListVM extends ChangeNotifier {
   final _myRepo = VesselRepo();

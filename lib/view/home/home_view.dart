@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:marina_mobility/presentation/home/VesselsListVM.dart';
+import 'package:marina_mobility/view/home/VesselsListVM.dart';
 import 'package:provider/provider.dart';
 
-import '../../data/response/Status.dart';
+import '../../data/remote/Status.dart';
+
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});

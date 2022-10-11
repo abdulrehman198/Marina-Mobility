@@ -1,8 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:http/http.dart' as http;
-import 'package:marina_mobility/data/network/BaseService.dart';
-import '../AppException.dart';
+
+import 'AppException.dart';
+import 'BaseService.dart';
 
 //post,delete,put methods can be defined below
 

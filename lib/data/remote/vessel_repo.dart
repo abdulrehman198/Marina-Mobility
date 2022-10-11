@@ -1,7 +1,7 @@
-import 'package:marina_mobility/data/network/service.dart';
-import '../../data/network/BaseService.dart';
-import '../../data/network/EndPoints.dart';
-import '../../presentation/home/VesseleListModel.dart';
+import 'package:marina_mobility/data/remote/service.dart';
+import 'BaseService.dart';
+import 'EndPoints.dart';
+import '../../model/home/VesseleListModel.dart';
 
 class VesselRepo {
   final BaseService _apiService = Service();
